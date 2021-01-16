@@ -1,0 +1,18 @@
+﻿@{
+    ViewData["Title"] = "Zelda 2 Live - Random Zelda 2 Live Stream";
+    Layout = "~/Views/Home/_HomeLayout.cshtml";
+}
+
+    <div class="text-center" id="streamSearchContent">
+        <h1 class="display-4">Zelda2.Live!</h1>
+        <div id="noResults" style="display:none;">
+            <h3>No Zelda 2 Live Streams found</h3>
+            <button id="searchAgain" type="button" class="btn btn-outline-warning">Search again</button>
+        </div>
+        <div id="searchContainer" style="display:none;">
+            <h3>Finding a random Zelda 2 Live Stream...</h3>
+            <div id="searchSpinner" class="spinner-border text-warning" role="status">
+                <span class="sr-only">Loading...</span>
+            </div>
+        </div>
+    </div>

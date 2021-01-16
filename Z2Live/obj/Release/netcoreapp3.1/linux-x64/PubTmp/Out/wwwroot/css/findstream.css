@@ -1,0 +1,16 @@
+﻿body {
+    background-color: #201c2b;
+    color: #cccccc;
+}
+
+#searchSpinner {
+    width: 15rem;
+    height: 15rem;
+    border: 1.5em solid currentColor;
+    border-right-color: transparent;
+    animation: spinner-border 1.75s linear infinite;
+}
+
+#streamSearchContent {
+    padding-top: 8rem;
+}
